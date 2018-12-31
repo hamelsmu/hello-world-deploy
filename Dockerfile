@@ -5,4 +5,4 @@ COPY app.py app.py
 
 ENV ham='chocolate'
 
-CMD flask run -p 0.0.0.0
+CMD flask run -h 0.0.0.0
