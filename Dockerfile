@@ -1,4 +1,5 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM python:3.6-slim-stretch
+RUN pip install flask
 
 EXPOSE 5000
 COPY app.py app.py

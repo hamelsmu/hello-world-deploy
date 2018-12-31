@@ -3,5 +3,8 @@
         "cloud": "v1"
     },
     "version": 1,
-    "type": "docker"
+    "type": "docker",
+    "env": {
+        "NOW_SECRET": "@secret1"
+      }
 }
