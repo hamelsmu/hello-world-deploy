@@ -4,4 +4,4 @@ RUN pip install flask
 EXPOSE 5000
 COPY app.py app.py
 
-CMD flask run -h 0.0.0.0
+CMD flask run -h 0.0.0.0 -p $PORT
